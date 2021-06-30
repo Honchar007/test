@@ -1,0 +1,43 @@
+.hi {
+  margin-top: 16px;
+}
+.avatar {
+  background-color: rgba(51, 189, 228, 0.2);
+}
+.scrollCard {
+  width: 100%;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.carousel-arrow {
+  display: none !important;
+}
+.cardBlock {
+  padding: 10px 15px;
+  margin: 10px;
+  width: 90%;
+  font-size: 26px;
+  color: #c1c1c1;
+  display: inline-block;
+}
+.durationConsultText {
+  font-size: 26px;
+  line-height: 24px;
+  /* or 150% */
+  margin-bottom: 8px;
+  text-align: center;
+}
+.durationConsultMinutes {
+  font-weight: bold;
+}
+.columnDivider {
+  border-right: 2px solid #e5e5e5;
+  margin-right: -10px; /* size of gutter */
+  padding-right: 10px; /* size of gutter */
+}
+.buttonReg {
+  background: #33bde4 !important;
+  color: #fff;
+}
